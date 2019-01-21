@@ -6,7 +6,7 @@
     <style type="text/css">
         h1{
             text-align: center;
-            font-size: 50px;
+            font-size: 100px;
 			color:white;
         }
 		h2{
@@ -16,13 +16,14 @@
 		}
 		.icon_logo{
 			margin-top: 0px;
-			width:300px;
-			height:300px;
+			width:40%;
+			max-width:200px
 			margin-bottom: 100px;
 		}
 		.hotline24{ 
+			 margin-top: 80px;
 			 margin-bottom: 20px;
-			 width:300px;
+			 width:30%;
 			 height:80px;
 			 border-radius:5px;
 			 background:#F8E71C; 
@@ -33,7 +34,7 @@
 			 }
 		.hotline25{ 
 				 margin-bottom: 50px;
-			 	 width:300px;
+			 	 width:30%;
 			 	 height:80px;
 			 	 border-radius:5px;
 			 	 background:#50E3C2; 
@@ -42,13 +43,23 @@
 			 	 color:#fff;
 			 	 font-size:30px;
 			 	 }
-		p.bottommargin {
-		margin-bottom: 2cm;
-		bottom:5%}
+		 #footer {
+                height: 50px;
+                line-height: 40px;
+                position: fixed;
+                bottom: 0;
+                width: 100%;
+                text-align: center;
+                color: #fff;
+                font-family: Arial;
+                font-size: 12px;
+                letter-spacing: 1px;
+            }
 		body {background-color:rgb(13,21,57);}
 		h2 {background-color: transparent}
 		p {background-color: rgb(13,21,57)}
 		p.no2 {background-color: gray; padding: 20px;}
+		
     </style>
 </head>
 <body>
@@ -57,11 +68,11 @@
 		<img class="icon_logo" src="QQ_512.png" />	
 	</div> 
 	<div align="center">
-	    <div class="hotline24"><b>iOS</b></div>
+	    <div class="hotline24" onclick="javascript:location.href='https://itunes.apple.com/cn/app/id1447107910'"><b>iOS</b></div>
 	</div> 
 		<div align="center">
-	    <div class="hotline25"><b>android</b></div>
+	    <div class="hotline25" onclick="javascript:location.href='http://www.163.com'"><b>android</b></div>
 	</div> 
-    <h2 class="bottommargin">Copy Right tiktaps 2019</h2>   
+	 <div id="footer">CopyRight@Tiktap2019 </div>
 </body>
 </html>
